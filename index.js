@@ -31,4 +31,14 @@ class Square extends Polygon {
   get area() {
     return (this.sideLengths[0])**2;
   }
+  
+  get isValid() {
+    if(this.countSides ===4 &&
+    this.sideLengths[0]=== this.sideLengths[1] === this.sideLengths[2] === this.sideLengths[3]){
+      return true
+    }
+    else {
+      return false 
+    }
+  }
 }
