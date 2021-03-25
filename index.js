@@ -1,7 +1,7 @@
 // Your code here
 class Polygon {
   constructor(sideLengths) {
-  this.sideLengths = [];
+  this.sideLengths = sideLengths;
   }
   
   get countSides() {
