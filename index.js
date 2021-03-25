@@ -12,3 +12,6 @@ class Polygon {
     return this.sideLengths.reduce
   }
 }
+
+class Triange extends Polygon {
+}
