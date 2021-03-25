@@ -22,8 +22,8 @@ class Triangle extends Polygon {
       return true 
     }
     else { 
-      return false }
-  
+      return false 
+    }
   }
 }
 
