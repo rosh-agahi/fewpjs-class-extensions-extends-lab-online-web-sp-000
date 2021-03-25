@@ -1,15 +1,15 @@
 // Your code here
 class Polygon {
   constructor(sideLengths) {
-  this.sideLengths = []
+  this.sideLengths = [];
   }
   
   get countSides(){
-    return this.sideLengths.length()
+    return this.sideLengths.length();
   }
   
   get perimeter() {
-    return this.sideLengths.reduce
+    return this.sideLengths.reduce((a, b) => a + b);
   }
 }
 
